@@ -1,7 +1,7 @@
 [project]
 name = "python-ai"
 version = "0.1.0"
-description = "Add your description here"
+description = "My AI learning projects"
 readme = "README.md"
 authors = [
     { name = "ahmadsajjad2911", email = "ahmadsajjad3015616@gmail.com" }
