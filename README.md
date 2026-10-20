@@ -44,3 +44,14 @@ A rule-based chatbot that answers common questions, hands complaints to a human,
 | 6 | Appointment | Book a visit | appointment, book | "Call us or visit during opening hours to book an appointment." |
 | 7 | Exit | End the chat | bye | "Take care, <name>!" |
 | 8 | Fallback | Anything else | (no match) | Counts as unanswered and prints the AI prompt for Module 2 |
+
+
+## Module 1 Checkpoint 2 Project: AI Front Desk
+
+A Python front desk for a local business that answers common questions with free rules, gives exact price quotes, and turns everything else into a cost-checked AI prompt.
+
+**Run:** `uv run code/project_m1_front_desk.py`
+
+![AI Front Desk running](docs/project-m1-part2-run.png)
+
+**Value:** ("Saves the owner about 1 hour of staff time per day answering hours and price questions, and only spends AI money on the questions rules cannot answer.")
