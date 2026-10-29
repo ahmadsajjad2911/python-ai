@@ -65,3 +65,13 @@ print("[3] Growth")
 print(prompt_growth)
 print()
 print("=" * 40)
+ 
+# Task 2.1 stretch: send Prompt 1 to the AI so the owner does not copy-paste.
+# temperature 0.2 keeps the post focused instead of random.
+llm = init_chat_model("gemma4:31b-cloud", model_provider="ollama", temperature=0.2)
+response = llm.invoke(prompt_marketing)
+ 
+print("AI answer to Prompt 1 (Marketing):")
+print(response.text)
+print("=" * 40)
+ 
